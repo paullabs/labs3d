@@ -1,0 +1,10 @@
+{
+  "name": "labs3d",
+  "version": "0.1.0",
+  "description": "labs3d: biblioteca de estilos de vídeo feitos em código. O menu mostra os estilos (espaço, atleta, narrador 3D, trânsito 3D, edição), deixa a pessoa escolher e começa por ele.",
+  "author": { "name": "LABS" },
+  "homepage": "https://github.com/paullabs/labs3d",
+  "repository": "https://github.com/paullabs/labs3d",
+  "keywords": ["video", "3d", "threejs", "blender", "shorts", "reels", "estilos"],
+  "dependencies": ["espaco-em-codigo", "atleta-em-codigo", "3d-animation", "transito-3d", "edit-labs-ai"]
+}

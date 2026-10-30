@@ -1,0 +1,37 @@
+{
+  "name": "labs3d",
+  "owner": { "name": "LABS" },
+  "description": "labs3d: biblioteca de estilos de vídeo feitos em código. Instale o plugin labs3d e invoque o menu para escolher o estilo.",
+  "plugins": [
+    {
+      "name": "labs3d",
+      "source": "./plugins/labs3d",
+      "description": "O menu da biblioteca: mostra os estilos, deixa a pessoa escolher e começa por ele. Instala os estilos junto (no Claude Code)."
+    },
+    {
+      "name": "espaco-em-codigo",
+      "source": { "source": "url", "url": "https://github.com/paullabs/espaco-em-codigo.git" },
+      "description": "Estilo Espaço: Shorts e Reels de espaço e ciência em 3D feito em código (planetas, órbitas, explosões, marés)."
+    },
+    {
+      "name": "atleta-em-codigo",
+      "source": { "source": "url", "url": "https://github.com/paullabs/atleta-em-codigo.git" },
+      "description": "Estilo Atleta: vídeos de luta com um atleta 3D sem rosto (boxe, aula, Reels, raio X)."
+    },
+    {
+      "name": "3d-animation",
+      "source": { "source": "git-subdir", "url": "https://github.com/paullabs/3d-animation.git", "path": "plugins/3d-animation" },
+      "description": "Estilo Narrador 3D: Reels narrados em animação 3D, com Blender por script."
+    },
+    {
+      "name": "transito-3d",
+      "source": { "source": "url", "url": "https://github.com/paullabs/transito-3d.git" },
+      "description": "Estilo Trânsito 3D: animações de trânsito em mapa 3D real, no Blender."
+    },
+    {
+      "name": "edit-labs-ai",
+      "source": { "source": "git-subdir", "url": "https://github.com/paullabs/edit-labs-ai.git", "path": "plugins/edit-labs-ai" },
+      "description": "Estilos de edição: cortes de podcast, motion Vox, colagem em camadas, documentário de arquivo e decupagem."
+    }
+  ]
+}
